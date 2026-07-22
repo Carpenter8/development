@@ -1,9 +1,79 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: aqua;
+    font-family: 'Courier New';
 }
 
 
 h1{
     color: red;
 } 
+h3{
+    color: orange;
+}
+#login{
+    background-color: red;
+    color: white;
+
+}
+#signup{
+    background-color: rgb(223, 155, 27);
+
+}
+
+/* descendant selector */
+
+/* p a{
+    color:purple ;
+    background-color: yellow;
+} */
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a{
+    color: rgb(102, 196, 21);
+}
+
+
+p + h3{
+   text-decoration: underline;
+}
+
+.ans{
+    background-color: blue;
+    
+}
+
+div > input{
+    background-color: rgb(172, 146, 111);
+}
+
+button:hover{
+    background-color: rgb(146, 25, 25);
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: rgb(165, 104, 12);
+}
+
+p:active{
+    font-weight: 700;
+    color: brown;
+}
+
+.post:nth-of-type(2){
+    background-color: blueviolet;
+}
+
+h1::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color: yellow;
+}
