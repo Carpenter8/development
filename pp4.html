@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            text-align: center;
+            border: 3px solid black;
+            margin: 20px;
+            display: inline-block;
+
+
+        }
+
+        #static {
+            background-color: yellowgreen;
+            position: static;
+            top: 100px;
+            left: 100px;
+        }
+
+        #relative {
+            background-color: yellowgreen;
+            position: static;
+            top: 100px;
+            left: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>Static Demo </h2>
+        <div id="static"></div>
+        <div></div>
+    </section>
+    <section>
+        <h2>Relative Demo</h2>
+        <div></div>
+        <div id="relative"></div>
+    </section>
+</body>
+
+</html>
