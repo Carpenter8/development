@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Face</title>
+  <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#ffffff;
+}
+
+.face{
+    width:320px;
+    height:320px;
+    background:orange;
+    border-radius:50%;
+    position:relative;
+}
+
+/* Eyes */
+.eye{
+    width:40px;
+    height:40px;
+    background:black;
+    border-radius:50%;
+    position:absolute;
+    top:80px;
+}
+
+.left-eye{
+    left:70px;
+}
+
+.right-eye{
+    right:70px;
+}
+
+/* Mouth */
+.mouth{
+    width:140px;
+    height:60px;
+    background:brown;
+    position:absolute;
+    bottom:70px;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius:0 0 25px 25px;
+}
+  </style>
+</head>
+<body>
+
+    <div class="face">
+        <div class="eye left-eye"></div>
+        <div class="eye right-eye"></div>
+        <div class="mouth"></div>
+    </div>
+
+</body>
+</html>
